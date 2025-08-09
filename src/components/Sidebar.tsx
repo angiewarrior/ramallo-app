@@ -5,7 +5,9 @@ import {
   Users, 
   FileText, 
   Clock, 
-  CheckSquare 
+  CheckSquare,
+  Settings,
+  UserCheck
 } from 'lucide-react';
 
 const Sidebar = () => {
@@ -34,6 +36,16 @@ const Sidebar = () => {
       path: '/tareas',
       name: 'Tareas',
       icon: CheckSquare
+    },
+    {
+      path: '/asignacion',
+      name: 'Asignación',
+      icon: UserCheck
+    },
+    {
+      path: '/configuracion',
+      name: 'Configuración',
+      icon: Settings
     }
   ];
 

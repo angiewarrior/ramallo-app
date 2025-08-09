@@ -6,6 +6,8 @@ import Clientes from './components/Clientes';
 import Procesos from './components/Procesos';
 import Pendientes from './components/Pendientes';
 import Tareas from './components/Tareas';
+import Asignacion from './components/Asignacion';
+import Configuracion from './components/Configuracion';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
             <Route path="/procesos" element={<Procesos />} />
             <Route path="/pendientes" element={<Pendientes />} />
             <Route path="/tareas" element={<Tareas />} />
+            <Route path="/asignacion" element={<Asignacion />} />
+            <Route path="/configuracion" element={<Configuracion />} />
           </Routes>
         </div>
       </div>
